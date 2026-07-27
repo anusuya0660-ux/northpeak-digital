@@ -61,10 +61,13 @@ function Hero() {
           <div className="circle one"></div>
           <div className="circle two"></div>
 
-          <img
-            src={img}
-            alt="NorthPeak Digital Team"
-          />
+         <img
+src={img}
+alt="NorthPeak Digital"
+loading="lazy"
+width="500"
+height="350"
+/>
 
         </div>
 

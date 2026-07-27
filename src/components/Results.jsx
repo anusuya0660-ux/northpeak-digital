@@ -31,7 +31,7 @@ function Results() {
         <div className="results-top">
 
           <div className="results-text">
-            <span className="section-badge">OUR RESULTS</span>
+          <h2>  <span className="section-badge">OUR RESULTS</span></h2>
 
             <h2>Helping Businesses Grow Faster</h2>
 

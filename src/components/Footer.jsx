@@ -23,19 +23,19 @@ function Footer() {
 
         <div className="social-icons">
 
-          <a aria-label="Facebook">
+          <a href="#" aria-label="Facebook">
             <FaFacebookF />
           </a>
 
-          <a aria-label="Instagram">
+          <a href="#" aria-label="Instagram">
             <FaInstagram />
           </a>
 
-          <a aria-label="LinkedIn">
+          <a href="#" aria-label="LinkedIn">
             <FaLinkedinIn />
           </a>
 
-          <a aria-label="GitHub">
+          <a href="#" aria-label="GitHub">
             <FaGithub />
           </a>
 

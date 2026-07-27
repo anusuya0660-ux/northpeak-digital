@@ -46,7 +46,7 @@ export default function Pricing() {
       <div className="container">
 
         <div className="pricing-header">
-          <span className="section-badge">PRICING</span>
+         <h2> <span className="section-badge">PRICING</span></h2>
 
           <h2>Flexible Plans For Every Business</h2>
 

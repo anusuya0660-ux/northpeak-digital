@@ -32,7 +32,7 @@
 .hero-tag {
 
     display: inline-block;
-    background: #F97316;
+    background: #EA580C;
     color: #fff;
 
     padding: 10px 18px;
@@ -58,7 +58,7 @@
 
 .hero-content h1 span {
 
-    color: #F97316;
+    color: #EA580C;
 
 }
 
@@ -113,7 +113,7 @@
 
 .btn-primary {
 
-    background: #F97316;
+    background: #EA580C;
 
     color: white;
 
@@ -127,7 +127,7 @@
 
 .btn-secondary {
 
-    border: 2px solid #F97316;
+    border: 2px solid #EA580C;
 
     color: white;
 
@@ -135,7 +135,7 @@
 
 .btn-secondary:hover {
 
-    background: #F97316;
+    background: #EA580C;
 
 }
 
@@ -165,7 +165,7 @@
 
 .hero-stats h2 {
 
-    color: #F97316;
+    color: #EA580C;
 
     font-size: 2rem;
 
@@ -232,7 +232,7 @@
     width: 180px;
     height: 180px;
 
-    background: #F97316;
+    background: #EA580C;
 
     top: -40px;
 

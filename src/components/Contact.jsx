@@ -83,11 +83,11 @@ export default function Contact() {
       <div className="container contact-container">
 
         <div className="contact-info">
-
+<h2>
           <span className="section-badge">
             CONTACT US
           </span>
-
+</h2>
           <h2>Let's Build Something Amazing Together</h2>
 
           <p>
@@ -112,31 +112,30 @@ export default function Contact() {
         </div>
 
         <form onSubmit={handleSubmit} className="contact-form">
-
+<label htmlFor="name">Full Name</label>
           <input
             type="text"
             name="name"
-            placeholder="Full Name"
+          
             value={form.name}
             onChange={handleChange}
           />
 
           {errors.name && <small>{errors.name}</small>}
-
+<label htmlFor="email">Email Address</label>
           <input
             type="email"
             name="email"
-            placeholder="Email Address"
             value={form.email}
             onChange={handleChange}
           />
 
           {errors.email && <small>{errors.email}</small>}
-
+<label htmlFor="name">Enter phone number</label>
           <PhoneInput
             international
             defaultCountry="IN"
-            placeholder="Enter phone number"
+         
             value={form.phone}
             onChange={(value) =>
               setForm({
@@ -147,11 +146,11 @@ export default function Contact() {
           />
 
           {errors.phone && <small>{errors.phone}</small>}
-
+<label htmlFor="name">Your Message</label>
           <textarea
             rows="6"
             name="message"
-            placeholder="Your Message"
+            
             value={form.message}
             onChange={handleChange}
           />
