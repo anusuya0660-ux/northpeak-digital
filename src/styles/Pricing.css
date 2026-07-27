@@ -74,7 +74,7 @@
 
 .popular {
 
-    border: 2px solid #FFFFFF;
+    border: 2px solid #ff6b00;
 
     transform: scale(1.05);
 
@@ -90,7 +90,7 @@
 
     transform: translateX(-50%);
 
-    background: #FFFFFF;
+    background: #ff6b00;
 
     color: white;
 
@@ -166,7 +166,7 @@
 
     padding: 15px;
 
-    background: #FFFFFF;
+    background: #ff6b00;
 
     color: white;
 
@@ -182,7 +182,7 @@
 
 .price-btn:hover {
 
-    background: #FB923C;
+    background: #ff6b00;
 
 }
 

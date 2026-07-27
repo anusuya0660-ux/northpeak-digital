@@ -5,7 +5,7 @@
 
 .section-tag {
     display: inline-block;
-    background: #FFFFFF;
+    background: #ff6b00;
     color: #fff;
     padding: 8px 18px;
     border-radius: 30px;
@@ -35,11 +35,11 @@
 }
 
 .service-card {
-    background: #fff;
+    background: white;
     padding: 35px;
     border-radius: 20px;
     transition: .35s;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #ff6b00;
 }
 
 .service-card:hover {
@@ -50,7 +50,7 @@
 .service-icon {
     width: 70px;
     height: 70px;
-    background: #fff7ed;
+    background: #ff6b00;
     color: #FFFFFF;
     display: flex;
     justify-content: center;

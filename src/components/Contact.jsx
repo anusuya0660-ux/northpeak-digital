@@ -83,11 +83,11 @@ export default function Contact() {
       <div className="container contact-container">
 
         <div className="contact-info">
-<h2>
+
           <span className="section-badge">
             CONTACT US
           </span>
-</h2>
+
           <h2>Let's Build Something Amazing Together</h2>
 
           <p>
@@ -133,18 +133,18 @@ export default function Contact() {
 
           {errors.email && <small>{errors.email}</small>}
 <label htmlFor="phone">Enter phone number</label>
-          <PhoneInput
-            international
-            defaultCountry="IN"
-         id="tel"
-            value={form.phone}
-            onChange={(value) =>
-              setForm({
-                ...form,
-                phone: value,
-              })
-            }
-          />
+         <PhoneInput
+  id="phone"
+  international
+  defaultCountry="IN"
+  value={form.phone}
+  onChange={(value) =>
+    setForm({
+      ...form,
+      phone: value,
+    })
+  }
+/>
 
           {errors.phone && <small>{errors.phone}</small>}
 <label htmlFor="message">Your Message</label>

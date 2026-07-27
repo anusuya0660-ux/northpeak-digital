@@ -45,7 +45,7 @@ function Service() {
   return (
     <section className="services" id="services">
       <div className="container">
-       <h2> <span className="section-tag">Our Services</span></h2>
+        <span className="section-tag">Our Services</span>
         <center>
           <h2 className="section-title">
             Solutions That Help Your Business Grow
