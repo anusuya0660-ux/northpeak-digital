@@ -5,7 +5,7 @@
 
 .section-tag {
     display: inline-block;
-    background: #EA580C;
+    background: #FFD54F;
     color: #fff;
     padding: 8px 18px;
     border-radius: 30px;
@@ -51,7 +51,7 @@
     width: 70px;
     height: 70px;
     background: #fff7ed;
-    color: #EA580C;
+    color: #FFD54F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@
 }
 
 .service-card a {
-    color: #EA580C;
+    color: #FFD54F;
     font-weight: 600;
     text-decoration: none;
 }

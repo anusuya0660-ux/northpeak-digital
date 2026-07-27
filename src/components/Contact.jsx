@@ -131,7 +131,7 @@ export default function Contact() {
           />
 
           {errors.email && <small>{errors.email}</small>}
-<label htmlFor="name">Enter phone number</label>
+<label htmlFor="phone">Enter phone number</label>
           <PhoneInput
             international
             defaultCountry="IN"
@@ -146,7 +146,7 @@ export default function Contact() {
           />
 
           {errors.phone && <small>{errors.phone}</small>}
-<label htmlFor="name">Your Message</label>
+<label htmlFor="message">Your Message</label>
           <textarea
             rows="6"
             name="message"

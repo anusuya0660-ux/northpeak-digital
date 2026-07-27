@@ -33,8 +33,9 @@ function Navbar() {
           <button
             className="close-btn"
             onClick={() => setMenuOpen(false)}
+             aria-label="Open navigation menu"
           >
-            <FaTimes />
+            {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
 
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
