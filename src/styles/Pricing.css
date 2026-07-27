@@ -74,7 +74,7 @@
 
 .popular {
 
-    border: 2px solid #FFD54F;
+    border: 2px solid #FFFFFF;
 
     transform: scale(1.05);
 
@@ -90,7 +90,7 @@
 
     transform: translateX(-50%);
 
-    background: #FFD54F;
+    background: #FFFFFF;
 
     color: white;
 
@@ -118,7 +118,7 @@
 
     font-size: 50px;
 
-    color: #FFD54F;
+    color: #FFFFFF;
 
     margin: 20px 0 10px;
 
@@ -166,7 +166,7 @@
 
     padding: 15px;
 
-    background: #FFD54F;
+    background: #FFFFFF;
 
     color: white;
 

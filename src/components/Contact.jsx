@@ -116,7 +116,7 @@ export default function Contact() {
           <input
             type="text"
             name="name"
-          
+          id="name"
             value={form.name}
             onChange={handleChange}
           />
@@ -126,6 +126,7 @@ export default function Contact() {
           <input
             type="email"
             name="email"
+            id="email"
             value={form.email}
             onChange={handleChange}
           />
@@ -135,7 +136,7 @@ export default function Contact() {
           <PhoneInput
             international
             defaultCountry="IN"
-         
+         id="tel"
             value={form.phone}
             onChange={(value) =>
               setForm({
@@ -150,7 +151,7 @@ export default function Contact() {
           <textarea
             rows="6"
             name="message"
-            
+            id="message"
             value={form.message}
             onChange={handleChange}
           />

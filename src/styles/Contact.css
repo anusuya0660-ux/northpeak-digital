@@ -23,7 +23,7 @@
 
 .PhoneInput:focus-within {
 
-    border-color: #FFD54F;
+    border-color: #FFFFFF;
 
 }
 
@@ -101,7 +101,7 @@
 
 .info-box svg {
 
-    color: #FFD54F;
+    color: #FFFFFF;
 
     font-size: 22px;
 
@@ -141,7 +141,7 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
 
-    border-color: #FFD54F;
+    border-color: #FFFFFF;
 
 }
 
@@ -149,7 +149,7 @@
 
     padding: 16px;
 
-    background: #FFD54F;
+    background: #FFFFFF;
 
     color: white;
 

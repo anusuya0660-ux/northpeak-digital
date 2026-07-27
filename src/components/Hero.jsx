@@ -16,13 +16,13 @@ function Hero() {
             Grow Your Business With
             <span> NorthPeak Digital</span>
           </h1>
-
+<h2>
           <p>
             We help startups and businesses increase their online presence
             through modern web development, SEO, branding and digital
             marketing strategies.
           </p>
-
+</h2>
           <div className="hero-buttons">
 
             <a className="btn-primary">
