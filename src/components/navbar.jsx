@@ -20,7 +20,7 @@ function Navbar() {
     <header className={sticky ? "navbar active" : "navbar"}>
       <div className="container nav-container">
 
-      
+
         <h2 className="logo">
           North<span>Peak</span>
         </h2>
@@ -33,7 +33,7 @@ function Navbar() {
           <button
             className="close-btn"
             onClick={() => setMenuOpen(false)}
-             aria-label="Open navigation menu"
+            aria-label="Open navigation menu"
           >
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -44,14 +44,14 @@ function Navbar() {
           <a href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
-         
+
 
         </nav>
 
         {/* Hamburger */}
         {!menuOpen && (
           <button
-           aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+            aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
             className="menu-btn"
             onClick={() => setMenuOpen(true)}
           >

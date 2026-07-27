@@ -112,17 +112,17 @@ export default function Contact() {
         </div>
 
         <form onSubmit={handleSubmit} className="contact-form">
-<label htmlFor="name">Full Name</label>
+          <label htmlFor="name">Full Name</label>
           <input
             type="text"
             name="name"
-          id="name"
+            id="name"
             value={form.name}
             onChange={handleChange}
           />
 
           {errors.name && <small>{errors.name}</small>}
-<label htmlFor="email">Email Address</label>
+          <label htmlFor="email">Email Address</label>
           <input
             type="email"
             name="email"
@@ -132,22 +132,22 @@ export default function Contact() {
           />
 
           {errors.email && <small>{errors.email}</small>}
-<label htmlFor="phone">Enter phone number</label>
-         <PhoneInput
-  id="phone"
-  international
-  defaultCountry="IN"
-  value={form.phone}
-  onChange={(value) =>
-    setForm({
-      ...form,
-      phone: value,
-    })
-  }
-/>
+          <label htmlFor="phone">Enter phone number</label>
+          <PhoneInput
+            id="phone"
+            international
+            defaultCountry="IN"
+            value={form.phone}
+            onChange={(value) =>
+              setForm({
+                ...form,
+                phone: value,
+              })
+            }
+          />
 
           {errors.phone && <small>{errors.phone}</small>}
-<label htmlFor="message">Your Message</label>
+          <label htmlFor="message">Your Message</label>
           <textarea
             rows="6"
             name="message"

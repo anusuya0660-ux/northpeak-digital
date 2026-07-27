@@ -5,9 +5,12 @@
     background: darkviolet;
 
 }
-.section-badge{
+
+.section-badge {
     background: #ff6b00;
-    color: white;}
+    color: white;
+}
+
 .PhoneInput {
 
     display: flex;
@@ -19,7 +22,7 @@
 
     border-radius: 10px;
 
-   
+
 
 }
 
@@ -45,7 +48,7 @@
 
     width: 100%;
 
-   
+
 
 }
 
@@ -130,7 +133,7 @@
 
     padding: 15px;
 
-   
+
 
     border-radius: 10px;
 
