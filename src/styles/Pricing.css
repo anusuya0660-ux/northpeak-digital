@@ -1,0 +1,241 @@
+.pricing {
+
+    padding: 100px 20px;
+
+    background: #F8FAFC;
+
+}
+
+.pricing-header {
+
+    text-align: center;
+
+    max-width: 700px;
+
+    margin: auto;
+
+    margin-bottom: 70px;
+
+}
+
+.pricing-header h2 {
+
+    font-size: 42px;
+
+    margin: 20px 0;
+
+    color: #0F172A;
+
+}
+
+.pricing-header p {
+
+    color: #64748B;
+
+    line-height: 1.8;
+
+}
+
+.pricing-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+}
+
+.price-card {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    position: relative;
+
+    text-align: center;
+
+    border: 1px solid #E2E8F0;
+
+    transition: .35s;
+
+}
+
+.price-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .08);
+
+}
+
+.popular {
+
+    border: 2px solid #F97316;
+
+    transform: scale(1.05);
+
+}
+
+.popular-tag {
+
+    position: absolute;
+
+    top: -15px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: #F97316;
+
+    color: white;
+
+    padding: 8px 18px;
+
+    border-radius: 30px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+.price-card h3 {
+
+    font-size: 26px;
+
+    margin-top: 20px;
+
+    color: #0F172A;
+
+}
+
+.price-card h1 {
+
+    font-size: 50px;
+
+    color: #F97316;
+
+    margin: 20px 0 10px;
+
+}
+
+.price-card span {
+
+    color: #64748B;
+
+}
+
+.price-card ul {
+
+    margin: 35px 0;
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+.price-card li {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 18px;
+
+    color: #475569;
+
+}
+
+.price-card svg {
+
+    color: #22C55E;
+
+}
+
+.price-btn {
+
+    display: block;
+
+    padding: 15px;
+
+    background: #F97316;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 40px;
+
+    font-weight: 600;
+
+    transition: .3s;
+
+}
+
+.price-btn:hover {
+
+    background: #FB923C;
+
+}
+
+/* Tablet */
+
+@media(max-width:992px) {
+
+    .pricing-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .popular {
+
+        transform: none;
+
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:576px) {
+
+    .pricing {
+
+        padding: 70px 20px;
+
+    }
+
+    .pricing-header h2 {
+
+        font-size: 30px;
+
+    }
+
+    .pricing-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .price-card {
+
+        padding: 30px;
+
+    }
+
+    .price-card h1 {
+
+        font-size: 42px;
+
+    }
+
+}
